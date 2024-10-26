@@ -42,19 +42,6 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://cali.so',
   },
-  twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
-    card: 'summary_large_image',
-    title: seo.title,
-    description: seo.description,
-  },
-  alternates: {
-    canonical: url('/'),
-    types: {
-      'application/rss+xml': [{ url: 'rss', title: 'RSS 订阅' }],
-    },
-  },
 }
 
 export const viewport: Viewport = {

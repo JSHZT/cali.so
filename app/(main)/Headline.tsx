@@ -77,7 +77,6 @@ export function Headline() {
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
           href="mailto:hzt3016@gmail.com"
           aria-label="我的邮箱"

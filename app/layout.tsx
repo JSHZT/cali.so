@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'JSHZT,tonpig,开发者,创新,服主',
   manifest: '/site.webmanifest',
   robots: {
     index: true,

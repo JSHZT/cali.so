@@ -1,5 +1,6 @@
 import Balancer from 'react-wrap-balancer'
 
+import { motion } from 'framer-motion'
 import { SocialLink } from '~/components/links/SocialLink'
 import { Container } from '~/components/ui/Container'
 
@@ -27,12 +28,24 @@ export default function BlogPage() {
     <Container className="mt-16 sm:mt-24">
       <header className="max-w-2xl">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          欢迎光临我的博客
+          JSHZT‘s blog
         </h1>
         <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}</Balancer>
         </p>
-        <p className="flex items-center">
+        <div className="max-w-2xl">
+          <motion.div
+          className="mt-6 flex gap-6"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            type: 'spring',
+            damping: 50,
+            stiffness: 90,
+            duration: 0.35,
+            delay: 0.25,
+          }}
+        >
           <SocialLink
             href="https://github.com/JSHZT"
             aria-label="我的 GitHub"
@@ -43,7 +56,8 @@ export default function BlogPage() {
             aria-label="我的邮箱"
             platform="mail"
           />
-        </p>
+        </motion.div>
+        </div>
       </header>
       <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-20 lg:grid-cols-2 lg:gap-8">
         <BlogPosts limit={20} />

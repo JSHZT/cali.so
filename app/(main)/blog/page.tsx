@@ -33,7 +33,16 @@ export default function BlogPage() {
           <Balancer>{description}</Balancer>
         </p>
         <p className="flex items-center">
-          <SocialLink href="/feed.xml" platform="rss" />
+          <SocialLink
+            href="https://github.com/JSHZT"
+            aria-label="我的 GitHub"
+            platform="github"
+          />
+          <SocialLink
+            href="mailto:hzt3016@gmail.com"
+            aria-label="我的邮箱"
+            platform="mail"
+          />
         </p>
       </header>
       <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-20 lg:grid-cols-2 lg:gap-8">

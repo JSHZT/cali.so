@@ -50,35 +50,14 @@ export default function Layout({
                   <strong>Cali Castle</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者、科研工作者
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://cali.so/twitter"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  Twitter
-                </Link>{' '}
-                |&nbsp;
-                <Link
-                  href="https://cali.so/youtube"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  YouTube
-                </Link>{' '}
-                |&nbsp;
-                <Link
-                  href="https://cali.so/github"
+                  href="https://github.com/JSHZT"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
-                </Link>{' '}
-                |&nbsp;
-                <Link
-                  href="https://cali.so/bilibili"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  哔哩哔哩
                 </Link>
               </Text>
             </Section>

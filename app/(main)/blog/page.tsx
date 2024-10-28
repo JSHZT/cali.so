@@ -1,8 +1,7 @@
 import Balancer from 'react-wrap-balancer'
 
-
-import { Container } from '~/components/ui/Container'
 import { SocialLink } from '~/components/links/SocialLink'
+import { Container } from '~/components/ui/Container'
 
 import { BlogPosts } from './BlogPosts'
 
@@ -33,13 +32,13 @@ export default function BlogPage() {
         <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}</Balancer>
         </p>
-        <div className="max-w-2xl">
+        <p className="max-w-2xl">
           <SocialLink
             href="https://github.com/JSHZT"
             aria-label="我的 GitHub"
             platform="github"
           />
-        </div>
+        </p>
       </header>
       <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-20 lg:grid-cols-2 lg:gap-8">
         <BlogPosts limit={20} />

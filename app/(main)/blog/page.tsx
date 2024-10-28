@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 
-import { SocialLink } from '~/components/links/SocialLink'
 import { Container } from '~/components/ui/Container'
+import { SocialLink } from '~/components/links/SocialLink'
 
 import { BlogPosts } from './BlogPosts'
 

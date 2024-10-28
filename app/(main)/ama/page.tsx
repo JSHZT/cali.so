@@ -78,7 +78,7 @@ export default function AskMeAnythingPage() {
           </span>
         </p>
         <p>
-          一旦你完成支付，通过我的邮箱（hzt3016@gmail.com）联系我！
+          随时可以通过我的邮箱（hzt3016@gmail.com）联系我！
         </p>
       </article>
     </Container>

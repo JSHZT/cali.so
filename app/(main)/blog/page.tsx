@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 
@@ -35,29 +34,11 @@ export default function BlogPage() {
           <Balancer>{description}</Balancer>
         </p>
         <div className="max-w-2xl">
-          <motion.div
-          className="mt-6 flex gap-6"
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            type: 'spring',
-            damping: 50,
-            stiffness: 90,
-            duration: 0.35,
-            delay: 0.25,
-          }}
-        >
           <SocialLink
             href="https://github.com/JSHZT"
             aria-label="我的 GitHub"
             platform="github"
           />
-          <SocialLink
-            href="mailto:hzt3016@gmail.com"
-            aria-label="我的邮箱"
-            platform="mail"
-          />
-        </motion.div>
         </div>
       </header>
       <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-20 lg:grid-cols-2 lg:gap-8">

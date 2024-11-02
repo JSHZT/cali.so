@@ -74,7 +74,7 @@ export default function AskMeAnythingPage() {
         <p className="flex justify-center md:block md:justify-start">
           <span className="inline-flex flex-col items-center">
             <Image src={AlipayQR} alt="" className="w-44 dark:brightness-90" />
-            <span className="mt-1 text-sm font-medium">扶贫二维码</span>
+            <span className="mt-1 text-sm font-medium">支付宝扶贫码</span>
           </span>
         </p>
         <p>
